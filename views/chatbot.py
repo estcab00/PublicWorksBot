@@ -68,7 +68,7 @@ def make_system_prompt(suffix: str) -> str:
 # prompt = st.text_input("Your inquiry:", "")
 
 
-llm = ChatOpenAI(model="gpt-3.5-turbo", openai_api_key=os.environ['OPENAI_API_KEY'])
+llm = ChatOpenAI(model="gpt-3.5-turbo", openai_api_key=openai_api_key)
 
 def get_next_node(last_message: BaseMessage, goto: str):
     if "FINAL ANSWER" in last_message.content:
