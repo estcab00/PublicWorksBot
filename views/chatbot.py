@@ -189,13 +189,12 @@ st.markdown(
          border: 1px solid #2a5298 !important;   /* Borde en azul medio, para dar consistencia */
     }
     
-    /* Opcional: Cambiar el color del placeholder a blanco (con opacidad) */
+    /* Estilo para los placeholders */
     ::placeholder {
          color: #ffffff !important;
          opacity: 0.7 !important;
     }
-    </style>
-
+    
     /* Estilo para las etiquetas de los text_input */
     div.stTextInput label, div[data-testid="stTextInput"] label {
          color: #ffffff !important;
