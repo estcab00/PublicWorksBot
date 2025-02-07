@@ -195,6 +195,12 @@ st.markdown(
          opacity: 0.7 !important;
     }
     </style>
+
+    /* Estilo para las etiquetas de los text_input */
+    div.stTextInput label, div[data-testid="stTextInput"] label {
+         color: #ffffff !important;
+    }
+    </style>
     """,
     unsafe_allow_html=True
 )    
