@@ -6,7 +6,8 @@ openai==1.57.3
 langchain==0.3.13
 langchain-openai==0.2.12
 langchain-text-splitters==0.3.4
-
+langgraph==0.2.60 
+langsmith==0.2.3 
 # Opcional: si empleas modelos o embeddings locales para comparación de similitud
 sentence-transformers==3.4.1
 
