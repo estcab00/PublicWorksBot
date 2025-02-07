@@ -35,7 +35,7 @@ st.markdown(
     
     /* Navigation info column styling (por ejemplo, si se muestra en el sidebar) */
     [data-testid="stSidebar"] {
-        background: "#2a5298";
+        background: #25306c;
     }
     [data-testid="stSidebar"] * {
         color: white !important; /* Forzamos que todo el texto sea blanco */
