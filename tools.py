@@ -1,23 +1,23 @@
-# Libraries
+# # Libraries
 
-from PIL import Image
-from io import BytesIO
-import pytesseract
-# Specify the path where Tesseract-OCR was installed
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-import pandas as pd
-import numpy as np
-import cv2
-import matplotlib.pyplot as plt
-from pytesseract import Output
-import re
-import glob
-import os
-import PIL.Image
-from PIL import Image
-from pdf2image import convert_from_path
-from PyPDF2 import PdfReader
-from PyPDF2.errors import PdfReadError
+# from PIL import Image
+# from io import BytesIO
+# import pytesseract
+# # Specify the path where Tesseract-OCR was installed
+# pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+# import pandas as pd
+# import numpy as np
+# import cv2
+# import matplotlib.pyplot as plt
+# from pytesseract import Output
+# import re
+# import glob
+# import os
+# import PIL.Image
+# from PIL import Image
+# from pdf2image import convert_from_path
+# from PyPDF2 import PdfReader
+# from PyPDF2.errors import PdfReadError
 import os
 import json
 import getpass
