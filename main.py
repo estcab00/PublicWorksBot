@@ -17,7 +17,7 @@ st.markdown(
     /* Main app background */
     .stApp {
         background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #a1c4fd 100%);
-        color: black;
+        color: white; /* Color global del texto (puedes modificar según lo que necesites) */
     }
 
     /* Buttons styling */
@@ -33,17 +33,18 @@ st.markdown(
         background-color: #2a5298;
     }
     
-    /* Navigation info column styling (if rendered in the sidebar) */
+    /* Navigation info column styling (por ejemplo, si se muestra en el sidebar) */
     [data-testid="stSidebar"] {
-        background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #a1c4fd 100%);
+        background: "#2a5298";
     }
     [data-testid="stSidebar"] * {
-        color: black !important;
+        color: white !important; /* Forzamos que todo el texto sea blanco */
     }
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 
 # --- NAVIGATION ---

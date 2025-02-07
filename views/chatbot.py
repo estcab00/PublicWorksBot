@@ -178,6 +178,26 @@ def main():
         los archivos JSON con la información del proyecto.
         """
     )
+
+st.markdown(
+    """
+    <style>
+    /* Estiliza los cuadros de entrada (text_input) y las áreas de texto (text_area) */
+    input[type="text"], textarea {
+         background-color: #25306c !important;  /* Fondo azul oscuro para widgets interactivos */
+         color: #ffffff !important;             /* Texto en blanco */
+         border: 1px solid #2a5298 !important;   /* Borde en azul medio, para dar consistencia */
+    }
+    
+    /* Opcional: Cambiar el color del placeholder a blanco (con opacidad) */
+    ::placeholder {
+         color: #ffffff !important;
+         opacity: 0.7 !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)    
     
 # Entradas para la pregunta y el directorio JSON
 question = st.text_input("Ingresa tu pregunta:", "")
