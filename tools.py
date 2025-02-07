@@ -26,7 +26,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 from langchain.tools import tool
 from langchain_openai import ChatOpenAI
-from IPython.display import Image, display
+# from IPython.display import Image, display
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph import MessagesState
 from langgraph.graph import START, END, StateGraph
