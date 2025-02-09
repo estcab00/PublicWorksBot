@@ -1,6 +1,26 @@
 # PublicWorksBot
 This project is a langchain chatbot system that will answer questions regarding different public works in Peru. The system consists of a researcher AI, that will look into the json files and a response generator AI, that will give you the final answer based on what the researcher found.
 
+        +---------------------+
+        |     User Query      |
+        +----------+----------+
+                   |
+                   V
+        +----------+----------+
+        |   Researcher AI     | <--- Scans JSON data for relevant public works information
+        +----------+----------+
+                   |
+                   V
+        +----------+----------+
+        | Response Generator  | <--- Uses research results to generate a coherent answer
+        +----------+----------+
+                   |
+                   V
+        +----------+----------+
+        |   Final Answer      | <--- Displayed to the user
+        +---------------------+
+
+
 ## 📚 Structure
 - `main.py`: The main code of the app. You can locally run it on a terminal
 - **📁 json_data:** Contains the json data of the public projects.
