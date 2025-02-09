@@ -3,7 +3,7 @@ This project is a langchain chatbot system that will answer questions regarding 
 
 ## 📚 Structure
 - `main.py`: The main code of the app. You can locally run it on a terminal
-- **📁 proyecto_X/json_output:** Contains the json data of the project #X.
+- **📁 json_data:** Contains the json data of the public projects.
 - **📁 views:**
   - `chatbot.py`: Stores a langchain chatbot that will respond to questions regarding public works in Peru.
 - `tools.py`: Contains the tools used by the langchain system.
