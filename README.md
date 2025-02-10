@@ -3,7 +3,7 @@ This project is a langchain chatbot system that will answer questions regarding 
 
 ```plaintext
         +---------------------+
-        |     User Query      | <--- The user provides the question and the project the question is referring to
+        |     User Query      | <--- The user provides the question and the project as input
         +----------+----------+
                    |
                    V
